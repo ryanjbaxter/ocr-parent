@@ -7,4 +7,5 @@ machine:
 deployment:
   releases:
     branch: master
-    commands: ./mvnw clean deploy -s settings.xml
+    commands:
+      - ./mvnw clean deploy -s settings.xml
