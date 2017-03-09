@@ -4,3 +4,7 @@ general:
 machine:
   java:
     version: openjdk8
+deployment:
+  releases:
+    branch: master
+    commands: ./mvnw clean deploy -s settings.xml
