@@ -14,4 +14,4 @@ You need to set the following environment variables
 
 To use the Concourse pipeline run
 
-`$ fly -t local set-pipeline --pipeline ocr-parent --config ci/pipelines/ocr-parent.yml --var "SONATYPE_USER=username" --var "SONATYPE_PASSWORD=password`
+`$ fly -t local set-pipeline --pipeline ocr-parent --config ci/pipelines/ocr-parent.yml --var "SONATYPE_USER=username" --var "SONATYPE_PASSWORD=password"`
