@@ -18,7 +18,7 @@ jobs:
       - name: ocr_parent_pom
       image_resource:
         type: docker-image
-        source: { repository: ryanjbaxter/uaa }
+        source: { repository: openjdk, tag: "8" }
       run:
         path: sh
         args:
