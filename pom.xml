@@ -16,6 +16,13 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
+    <scm>
+        <url>git@github.com:ryanjbaxter/ocr-parent.git</url>
+        <connection>scm:git:git@github.com:ryanjbaxter/ocr-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:ryanjbaxter/ocr-parent.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <!-- ====================================================================== -->
     <!-- L I C E N S E S -->
     <!-- ====================================================================== -->
